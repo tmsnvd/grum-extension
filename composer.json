@@ -1,0 +1,17 @@
+{
+  "name": "ft/grum-extensions",
+  "description": "GrumPHP extensions lib for FT",
+  "type": "library",
+  "require": {
+    "php": ">=7.1",
+    "phpro/grumphp": "*"
+  },
+  "config": {
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "FinanceTechnology\\GrumExtension\\": "src"
+    }
+  }
+}
